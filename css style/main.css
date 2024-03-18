@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+}
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;    
+}
+.logo {
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 700;
+}
+ .navbar a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration:none;
+  margin-left: 40px;
+  color:ghostwhite;
+}
+.navbar a:hover{
+    background-color: rgba(214, 201, 201, 0.664);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(126, 123, 123, 0.5);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(112, 112, 112);
+}
+div#demo {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  background-color: transparent;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  color: rgb(255, 255, 255);
+}
+div#demo .pragtaph {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+form .buttonlearn {
+  background-color: rgba(27, 25, 25, 0.651);;
+  padding: 17px 22px;
+  margin: 25px 10px;
+  color: rgb(250, 246, 246);
+  border-radius: 10px;
+  font-size: 16px;
+}
+.buttoncontact:hover {
+  background-color: rgba(233, 236, 226, 0.171);
+}
+.buttonlearn:hover{
+    background-color: rgba(233, 236, 226, 0.171);
+}
+
+form .buttoncontact {
+  padding: 17px 25px;
+  margin: 25px 10px;
+  color:rgb(250, 246, 246);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+}
+div.background{
+  min-height: 100vh;
+  background: url(../images/drew-coffman-1872.jpg) no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+div.background2{
+  margin-top: 112px;
+  margin-left: 110px;
+}
+div.background2 .whowe{
+  display: inline-block;
+  vertical-align: top ;
+  margin-left: 80px;
+  margin-top: 65px;
+  font-size: 5;
+  font-style: italic;
+}
+div.background2 .whowe p{
+  font-weight: 300px;
+  font-size: 19px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.603);
+}
+.whowe h1{
+  font-size: xx-large;
+}
+div.background2 .whowe .prgraphph{
+  display: inline-block;
+  vertical-align: 19px;
+  margin-left: 15;
+}
+div.background2 .whowe img{
+ background-color:rgba(250, 235, 215, 0.527) ;
+ border-radius: 30px;
+}
+/* div.background3{
+  margin-top: 200px;
+  margin-left:800px;
+  display: inline-block;
+}
+.ourlocationph{
+  display: inline-block;
+  background-color: aqua;
+  vertical-align: top;
+  margin-left: 30px;
+  font-size: 15;
+} */
+.child1{
+  width: 40%;
+  display: inline-block;
+  vertical-align: 170px;
+  margin-left:100;
+  font-style: italic;
+}
+.child2{
+  display: inline-block;
+  width: 40%;
+  margin-top: 90px;
+  margin-left: 30;
+  text-align: left;
+  padding-bottom: 90px;
+}
+.parent{
+  background-color: rgba(233, 230, 236, 0.541);
+  margin-top: 55px;
+}
+.child1 p{
+  color: rgba(0, 0, 0, 0.603);
+  font-weight: 300px;
+  font-size: 19px;
+  line-height: 2;
+}
+.ourbakingp{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.image1{
+  text-align: center;
+  width: 28%;
+  float: left;
+  margin-left: 50px;
+}
+.clear{
+  clear: both;
+}
+.parent2 p{
+  font-style: italic;
+  font-size: 19px;
+  line-height:1.5 ;
+  color:rgba(0, 0, 0, 0.603);
+}
+.margtop{
+}
